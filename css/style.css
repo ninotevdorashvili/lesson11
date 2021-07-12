@@ -1,4 +1,136 @@
+body {
+    padding-top: 30px;
+}
+.section-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section-container h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.section-container h2 {
+    max-width: 331px;
+    width: 100%;
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 54px;
+}
+.forms-container {
+    max-width: 1088px;
+    width: 100%;
+}
+form {
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input-div {
+    max-width: 352px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
 .textarea {
-    width: 700px;
+    max-width: 720px;
+    width: 100%;
     height: 288px;
+    border: none;
+    font-size: 13px;
+    resize: none;
+    padding: 20px 20px;
+}
+.forms-input {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 13px;
+}
+.forms-input:nth-child(2) {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.button {
+    background-color: #5863F8;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.textarea::placeholder,
+.forms-input::placeholder {
+    font-size: 13px;
+    text-align: justify;
+}
+.contact-block {
+    max-width: 1088px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-div {
+    background-color: #5863F8;
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-envelope,
+.fa-phone-alt,
+.fa-map-marker-alt {
+    color: #fff;
+}
+.block a:nth-child(2) {
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.block a:nth-child(3),
+.block a:nth-child(4) {
+    color: #B1B1B1;
+    font-size: 14px;
+}
+.block a:nth-child(3) {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+/* section-2-styles */
+.section-2-container {
+    max-width: 1261px;
+    width: 100%;
+    margin: 0 auto;
+}
+.images-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text-block {
+    max-width: 475px;
+    width: 100%;
+    margin-left: 78px;
+    margin-bottom: 54px;
+}
+.text-block h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.text-block h2 {
+    font-size: 42px;
+    line-height: 56px;
 }
